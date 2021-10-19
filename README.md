@@ -1,1 +1,1 @@
-:)
+[![Publish Docker image](https://github.com/Kaikka/PGR301-devops-frilek-eksamen/actions/workflows/create_image.yaml/badge.svg)](https://github.com/Kaikka/PGR301-devops-frilek-eksamen/actions/workflows/create_image.yaml)
