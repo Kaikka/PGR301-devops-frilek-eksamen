@@ -51,5 +51,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ steps.meta.outputs.tags }} #maybe this stuff should match ECR push?
+          tags: ${{ secrets.DOCKER_USERNAME }}/kaam004frilek:latest
           labels: ${{ steps.meta.outputs.labels }}
