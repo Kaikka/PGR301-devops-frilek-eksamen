@@ -10,9 +10,9 @@ on:
     branches:
       - master
 jobs:
-  # How can I make so ECR and Docker Hub are separate?
+  # how can I split ECR and Docker Hub into two diff things?
   push_to_registry:
-    name: Push Docker image to AWS ECR
+    name: Push Docker image to AWS ECR and Docker Hub
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
@@ -51,5 +51,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ steps.meta.outputs.labels }}
+          tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
