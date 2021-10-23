@@ -1,1 +1,3 @@
-[![Publish Docker image to ECR](https://github.com/Kaikka/PGR301-devops-frilek-eksamen/actions/workflows/create_image.yaml/badge.svg)](https://github.com/Kaikka/PGR301-devops-frilek-eksamen/actions/workflows/create_image.yaml) [![Publish Docker image to Docker Hub](https://github.com/Kaikka/PGR301-devops-frilek-eksamen/actions/workflows/create_image_docker_hub.yaml/badge.svg)](https://github.com/Kaikka/PGR301-devops-frilek-eksamen/actions/workflows/create_image_docker_hub.yaml)
+[![Publish Docker images](https://github.com/Kaikka/PGR301-devops-frilek-eksamen/actions/workflows/create_image.yaml/badge.svg)](https://github.com/Kaikka/PGR301-devops-frilek-eksamen/actions/workflows/create_image.yaml)
+
+My PGR301 DevOps exam prep
