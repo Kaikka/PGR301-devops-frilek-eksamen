@@ -12,7 +12,7 @@ on:
 jobs:
   # How can I make Docker Hub and ECR run as separate jobs?
   push_to_registry:
-    name: Push Docker image to AWS ECR
+    name: Push Docker image to AWS ECR and Docker Hub
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
@@ -51,5 +51,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ steps.meta.outputs.tags }} #maybe this stuff should match ECR push?
+          tags: ${{ secrets.DOCKER_USERNAME }}/kaam004frilek:latest
           labels: ${{ steps.meta.outputs.labels }}
