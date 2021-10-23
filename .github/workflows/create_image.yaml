@@ -12,7 +12,7 @@ on:
 jobs:
   # How can I make Docker Hub and ECR run as separate jobs?
   push_to_registry:
-    name: Push Docker image to AWS ECR
+    name: Push Docker image to AWS ECR and Docker Hub
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
