@@ -10,6 +10,7 @@ on:
     branches:
       - master
 jobs:
+  # How can I make so ECR and Docker Hub are separate?
   push_to_registry:
     name: Push Docker image to AWS ECR
     runs-on: ubuntu-latest
