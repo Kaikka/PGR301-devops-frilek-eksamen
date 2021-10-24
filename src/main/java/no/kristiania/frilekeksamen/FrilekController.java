@@ -8,6 +8,6 @@ public class FrilekController {
 
     @GetMapping(path = "/")
     public String hello() {
-        return "Hello Kaikka world :)";
+        return "Hello Kaikka world :) <3";
     }
 }
